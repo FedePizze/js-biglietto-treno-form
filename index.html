@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js-biglietto-treno-form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div id="container">
+            <h1>CALCOLA IL PREZZO DEL TUO BIGLIETTO</h1>
+            <div class="box" id="round">
+                <div class="inner-box" id="inner1">
+                    <div class="card">
+                        <h4>Nome Cognome</h4>
+                        <input type="text" id="nome">
+                    </div>
+                    <div class="card">
+                        <h4>Km da percorrere</h4>
+                        <input type="number" id="km">
+                    </div>
+                    <div class="card">
+                        <h4>Fascia d'età</h4>
+                        <select id="eta">
+                            <option value="Minorenne">Minorenne</option>
+                            <option value="Maggiorenne">Maggiorenne</option>
+                            <option value="Over65">Over 65</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="inner-box" id="inner2">
+                    <button class="red" id="genera"><h3>Genera</h3></button>
+                    <button class="red" id="annulla"><h3>Annulla</h3></button>
+                </div>
+            </div>
+        </div>
+        
+        <div id="container">
+            <h1>IL TUO BIGLIETTO</h1>
+            <div class="box opa">
+                <div class="inner-box" id="inner3">
+                    <h2>DETTAGLI PASSEGGERI</h2>
+                    <div id="biglietto">
+                        <div id="grey-box">
+                            <h2>NOME PASSEGGERO</h2>
+                            <span id="nome-passeggero">//</span>
+                        </div>
+                        <div id="white-box">
+                            <div class="card">
+                                <h3>Offerta</h3>
+                                <br>
+                                <span id="c1">//</span>
+                            </div>
+                            <div class="card">
+                                <h3>Carrozza</h3>
+                                <br>
+                                <span id="c2">//</span>
+                            </div>
+                            <div class="card">
+                                <h3>Codice CP</h3>
+                                <br>
+                                <span id="c3">//</span>
+                            </div>
+                            <div class="card">
+                                <h3>Costo biglietto</h3>
+                                <br>
+                                <span id="c4">//</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
