@@ -47,3 +47,10 @@ genera.addEventListener('click',
         eta.value = "";
     }
 );
+
+annulla.addEventListener('click',
+    function() {
+        annulla = window.location.reload();
+    }
+);
+
