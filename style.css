@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #b91450;
+}
+
+#container{
+    max-width: 1000px;
+    margin: 50px auto;
+}
+
+.box{
+    margin: 20px 0;
+    padding-bottom: 20px;
+    background-color: white;
+}
+
+.inner-box{
+    display: flex;
+    justify-content: center;
+}
+
+#round{
+    border-radius: 15px;
+}
+
+.card{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px;
+}
+
+#nome, #km, #eta{
+    border: 2px solid #b91450;
+    border-radius: 10px;
+}
+
+h1{
+    text-align: center;
+    margin: 25px 0;
+    color: white;
+}
+
+h2{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+h4{
+    text-align: center;
+    margin: 10px 0;
+    color: #b91450;
+}
+
+.red{
+    color: #b91450;
+}
+
+#genera, #annulla{
+    margin: 0 10px;
+    padding: 5px;
+}
+
+#biglietto{
+    display: flex;
+    margin-top: 10px;
+}
+
+#inner1{
+    padding-top: 20px;
+}
+
+#inner2{
+    margin-top: 20px;
+}
+
+#inner3{
+    margin: 0 25px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#grey-box{
+    width: 25%;
+    background-color: gray;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+#white-box{
+    width: 75%;
+    padding: 10px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    display: flex;
+    align-items: flex-start;
+}
+
+.opa{
+    opacity: 0;
+}
+
+.active{
+    opacity: 1;
+}
