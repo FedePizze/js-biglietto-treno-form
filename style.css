@@ -39,6 +39,8 @@ body{
 #nome, #km, #eta{
     border: 2px solid #b91450;
     border-radius: 10px;
+    padding: 10px;
+    text-align: center;
 }
 
 h1{
